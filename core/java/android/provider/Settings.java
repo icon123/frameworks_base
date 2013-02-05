@@ -2873,13 +2873,6 @@ public final class Settings {
          */
         public static final String STATUSBAR_SIGNAL_TEXT_COLOR = "statusbar_signal_text_color";
 
-        /*
-         * On or off the Pie.
-         *
-         * @hide
-         */
-        public static final String PIE_CONTROLS = "pie_controls";
-
         /**
          * Pie menu, should default to 0 (no, show only when needed)
          * @hide
@@ -2929,12 +2922,6 @@ public final class Settings {
          * @hide
          */
         public static final String PIE_SIZE = "pie_size";
-
-        /**
-         * Pie Notification Ability
-         * @hide
-         */
-        public static final String PIE_NOTIFICATIONS = "pie_notifications";
 
        // PIE COLORS EVERYWHERE! //
 
