@@ -2517,10 +2517,16 @@ public final class Settings {
         };
 
          /**
-         * Statusbar State
+         * Navigation Bar State
          * @hide
          */
         public static final String EXPANDED_DESKTOP_STATE = "expanded_desktop_state";
+
+         /**
+         * Status bar State
+         * @hide
+         */
+        public static final String EXPANDED_DESKTOP_STATUS_BAR_STATE = "expanded_desktop_status_bar_state";
 
         /**
          * Whether to use a separate delay for "slide to unlock" and security
@@ -2706,12 +2712,7 @@ public final class Settings {
          */
         public static final String NAVIGATION_BAR_SHOW_NOW = "navigation_bar_show_now";
 
-         /**
-          * Used as a flag to determine if we are showing the StatusBar *NOW* or is it hidden
-          */
-         public static final String NAVIGATION_BAR_STATUS_SHOW_NOW = "navigation_bar_status_show_now";
-
-    	 /**
+	/**
          * Show the NavBar dialog in Power menu
          * @hide
          */
